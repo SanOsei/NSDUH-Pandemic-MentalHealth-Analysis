@@ -35,9 +35,9 @@ Employs statsmodels.formula.api to construct robust multi-variable Generalized L
 
 ## Technical Stack & Dependencies
 The notebook runs completely on a standard Python 3 runtime environment. Ensure the following packages are configured:
-'''python
+```python
 !pip install pyreadstat statsmodels pandas numpy matplotlib scipy
-'''
+```
 - Pandas & NumPy: Data wrangling, category processing, and numeric parsing.
 
 - Statsmodels: GLM implementation using frequency weighting overrides (freq_weights) and heteroscedasticity-robust standard errors (HC1).
